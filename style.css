@@ -1,0 +1,50 @@
+body{
+    background-color: #07f7ff
+}
+
+h1{
+    color:blue;
+    background-color:whitesmoke;
+    font-weight: 750;
+}
+
+#Show_Sketch{
+    float:right
+    
+}
+
+#score{
+    font-size: 27px;
+    float:left;
+    font-weight: 750;
+}
+
+#timer{
+    font-size: 27px;
+    float:right;
+    font-weight: 750;
+}
+
+
+canvas{
+    border: 5px solid black;
+    border-radius: 20px;
+    animation-name: Color;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Color{
+from{box-shadow: 1px 1px 38px black;}
+to{
+    box-shadow: 1px 1px 38px white;
+}
+}
+
+p{
+    padding-top:10px;
+    font-size: 25px;
+    font-weight: 600;
+    color:red;
+}
